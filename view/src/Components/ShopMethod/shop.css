@@ -1,0 +1,20 @@
+.methods {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    .method {
+        width: 300px;
+
+        .icon {
+            font-size: 35px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 21px;
+        }
+    }
+}

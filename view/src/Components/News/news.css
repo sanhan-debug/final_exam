@@ -1,0 +1,52 @@
+.news-container {
+    background-image: url('https://preview.colorlib.com/theme/estore/assets/img/collection/latest-offer.png.webp');
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+
+    .news {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .texts {
+        align-items: baseline;
+        padding: 200px;
+ 
+
+        .input1 {
+            display: flex;
+
+            input {
+                border-radius: 14px;
+            }
+
+            button {
+                border-radius: 14px;
+                background: blue;
+                padding: 10px 17px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .news-container {
+        background-image: none;
+
+        img {
+            display: none;
+        }
+
+        .texts {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
